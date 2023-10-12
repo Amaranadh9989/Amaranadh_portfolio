@@ -72,7 +72,7 @@
 /* Mobile View */
 @media only screen and (max-width: 480px) {
     .Contact {
-        height: 20vh;
+        height: 18vh;
     }
     
     .icon-container {
@@ -97,7 +97,7 @@
         margin-bottom: 5px; /* Adding some space between contacts */
     }
     #team-contact-1{
-        margin-right: 20px;
+        margin-right: 25px;
     }
     #team-contact-2{
         margin-right: 20px;

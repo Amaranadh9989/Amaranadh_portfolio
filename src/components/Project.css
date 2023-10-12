@@ -114,9 +114,16 @@
     .github_link,
     .live_demo,
     .demo_link {
-        top:5.5vh;
-        margin-left: 10px;
         width: 80%;
+    }
+    .github_link{
+        top:6vh;
+        padding:10px 25px;
+        margin-left: 35px;
+    }
+    .demo_link,.live_demo{
+        top:6vh;
+        padding:10px 8px;
     }
 }
 /*Responsive*/

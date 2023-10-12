@@ -12,7 +12,7 @@ const Experience = () => {
         <div id='Experience' className='Experience' >
             <div className='span_container'>
                 <div style={{position:'relative',top:'20px'}}>
-                <span style={{fontSize:'20px', marginLeft:'40px', display:'block', paddingBottom:'15px'}}>Explore My</span>
+                <span className="span_exp" style={{fontSize:'20px', marginLeft:'40px', display:'block', paddingBottom:'15px'}}>Explore My</span>
                 <span style={{fontSize:'40px'}}>Experience</span>
                 </div>
             </div>

@@ -58,9 +58,13 @@
     .Experience{
         height: 310vh;
     }
+    .span_container{
+        position: relative;
+        top:5px;
+    }
     .experience_sub {
         position: relative;
-        top: 50px;
+        top: 70px;
         grid-template-columns: 1fr;
     }
 
