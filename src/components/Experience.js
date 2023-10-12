@@ -27,7 +27,6 @@ const Experience = () => {
                            <h4><RiAwardFill style={{position:'relative',top:'2px'}}/>Expert Level</h4><br/>
                             <p>The HyperText Markup Language or HTML is the standard markup 
                             language for documents designed to be displayed in a web browser.
-                             It defines the meaning and structure of web content.
                             </p>
                        </div>
                      </div>
@@ -52,8 +51,7 @@ const Experience = () => {
                             <h3 >JavaScript</h3><br/>
                             <h4 ><RiAwardFill style={{position:'relative',top:'2px'}}/> Beginner Level</h4><br/>
                             <p>JavaScript was originally named Mocha, later it was renamed to
-                                 LiveScript, and then to JavaScript. The LiveScript to JavaScript
-                                  name change came because Netscape and Sun did a license agreement. 
+                                 LiveScript, and then to JavaScript. 
                             </p>
                        </div>
                      </div>
@@ -66,7 +64,7 @@ const Experience = () => {
                             <h4><RiAwardFill style={{position:'relative',top:'2px'}}/>Intermediate Level</h4><br/>
                             <p>React is a JavaScript library for building user interfaces. It is the view
                                  layer for web applications. At the heart of all React applications are 
-                                 components. A component is a self-contained module that renders some output.
+                                 components.
                             </p>
                        </div>
                      </div>
@@ -78,7 +76,7 @@ const Experience = () => {
                             <h3 >Figma</h3><br/>
                             <h4><RiAwardFill style={{position:'relative',top:'2px'}}/>Intermediate Level</h4><br/>
                             <p> Figma is a cloud-based design tool that is similar to Sketch in functionality 
-                                and features, but with big differences that make Figma better for team collaboration.
+                                and features.
                             </p>
                        </div>
                      </div>
@@ -90,8 +88,7 @@ const Experience = () => {
                             <h3>User Experience</h3><br/>
                             <h4><RiAwardFill style={{position:'relative',top:'2px'}}/> Beginner Level</h4><br/>
                             <p>UX stands for user experience, while UI is short for User Interface. Both these 
-                                aspects are intertwined to produce the desired results. UI/UX Design is the process
-                                 of designing the interface.
+                                aspects are intertwined to produce the desired results.
                             </p>
                        </div>
                      </div>

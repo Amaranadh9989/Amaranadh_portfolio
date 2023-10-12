@@ -82,7 +82,7 @@
 
 @media only screen and (min-width: 668px) and (max-width: 776px) {
     .Experience {
-        height: 185vh; 
+        height: 600px;; 
     }
     .experience_container {
         margin: 0 auto; /* Centering the experience container */
