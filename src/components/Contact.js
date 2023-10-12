@@ -20,8 +20,8 @@ const Contact = () => {
            </a>
             </div>
             <div className='contact-container'>
-              <span className="team-contact"><AiFillPhone className='team-icon'color='light-black'/>+91 9390575059</span>
-              <span className="team-contact"><AiFillMail className='team-icon'color='EA4335'/>amaranadhmatta123@gmail.com</span>
+              <span className="team-contact" id='team-contact-1'><AiFillPhone className='team-icon'color='light-black'/>+91 9390575059</span>
+              <span className="team-contact"id='team-contact-2'><AiFillMail className='team-icon'color='EA4335'/>amaranadhmatta123@gmail.com</span>
             </div>
         </div>
     );
