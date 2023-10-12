@@ -1,0 +1,134 @@
+.ContactForm{
+    width:100%;
+    height:70vh;
+     background-color:whitesmoke;
+     font-family: 'Times New Roman', Times, serif;
+
+}  
+  h1 {
+    position: relative;
+    top:10vh;
+    text-align: center;
+    margin-left:5vw;
+    color: #545050;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
+  }
+  
+#form_container {
+    position: relative;
+    top:5vh;
+    max-width: 600px;
+    text-align: center;
+    margin: 10vh auto;
+  }
+  
+.input-name,.input-email,.input-subject,.input-submit,.input-message{
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    width:25vw;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    resize: none;
+  }
+  .input-name:focus,.input-email:focus,.input-subject:focus,.input-submit:focus,.input-message :focus{
+    box-shadow: 0 0px 2px rgba(255, 0, 0, 1) !important;
+  }
+  
+.input-submit {
+    position: relative;
+    top: -18vh;
+    width: 100%;
+    margin-left: 4vw;
+    color: white;
+    background: red;
+    cursor: pointer;
+  }
+  
+.input-submit:hover {
+    box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  }
+  #mesage_container{
+    position: relative;
+    float: right;
+    margin-right: -8vw;
+    top: -23vh;
+  }
+.input-message {
+    position: relative;
+    height: 120px;
+    width: 18vw;
+  }
+  /* mobile view*/
+
+@media (max-width: 480px) {
+  .ContactForm{
+    height: 85vh;
+  }
+ .ContactForm h1{
+  position: relative;
+  top:30px;
+ }
+  #form_container{
+    position: relative;
+    top:15px;
+    margin-left: 40px;
+  }
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 1em; /* Add margin between the input fields */
+  }
+
+  .input-name,
+  .input-email,
+  .input-subject,
+  .input-message {
+    width: 80%; /* Adjust the width for better spacing */
+  }
+  #mesage_container {
+    margin-right: 0;
+    top: 0; /* Adjust the position for better spacing */
+  }
+  .input-submit{
+    position: relative;
+    top:10px;
+    width:80%;
+  }
+}
+@media only screen and (min-width: 668px) and (max-width: 776px) {
+  .ContactForm {
+      height:60vh; /* Adjusted height for better visibility on smaller screens */
+  }
+
+  h1 {
+      top: 5vh; /* Adjusted top position for better alignment */
+  }
+
+  #form_container {
+      top: 5vh; 
+      margin: 5vh auto;
+  }
+
+  .input-name, .input-email, .input-subject, .input-message {
+      width: 60%; 
+  }
+
+  .input-submit {
+      top:-18vh;
+      margin-left:12vw; 
+      width: 70%;
+  }
+
+  #mesage_container {
+      top: -24.5vh; /* Adjusted top position for better alignment */
+      margin-right:20px; /* Centered the message container */
+  }
+
+  .input-message {
+      width: 100%; /* Adjusted width for better responsiveness */
+  }
+}
