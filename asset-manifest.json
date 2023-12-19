@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Amaranadh_portfolio/static/css/main.3a587d22.css",
-    "main.js": "/Amaranadh_portfolio/static/js/main.2ca3211c.js",
+    "main.css": "/Amaranadh_portfolio/static/css/main.8f7f6288.css",
+    "main.js": "/Amaranadh_portfolio/static/js/main.b1e08302.js",
     "static/js/787.a41e74c1.chunk.js": "/Amaranadh_portfolio/static/js/787.a41e74c1.chunk.js",
     "static/media/amaranadh.png": "/Amaranadh_portfolio/static/media/amaranadh.26deb11fc8896ca7ea75.png",
     "static/media/project_1.png": "/Amaranadh_portfolio/static/media/project_1.e243fa11eb8e9a35876e.png",
     "static/media/project_2.png": "/Amaranadh_portfolio/static/media/project_2.991b24d4bb67433a9b81.png",
     "static/media/logo.png": "/Amaranadh_portfolio/static/media/logo.dc3bfce0c6135c3c34bb.png",
     "static/media/project_3.png": "/Amaranadh_portfolio/static/media/project_3.70cd8caae08b3fd2bfe1.png",
+    "static/media/python.png": "/Amaranadh_portfolio/static/media/python.a6cb5b81f41ab4fe5fed.png",
     "static/media/main_logo.png": "/Amaranadh_portfolio/static/media/main_logo.a739415988b72482eb35.png",
     "static/media/react.png": "/Amaranadh_portfolio/static/media/react.6e2c55f0d8938eb46f7d.png",
-    "static/media/ui.png": "/Amaranadh_portfolio/static/media/ui.bb78a1326b10853ed7e6.png",
     "static/media/js.png": "/Amaranadh_portfolio/static/media/js.48b70e4510ba04928b8d.png",
     "static/media/css.png": "/Amaranadh_portfolio/static/media/css.282890b99791529da9a0.png",
     "static/media/html.png": "/Amaranadh_portfolio/static/media/html.9d00e967bbcaded8bcb3.png",
     "static/media/figma.png": "/Amaranadh_portfolio/static/media/figma.fd6fa96f8e13344161f8.png",
     "index.html": "/Amaranadh_portfolio/index.html",
-    "main.3a587d22.css.map": "/Amaranadh_portfolio/static/css/main.3a587d22.css.map",
-    "main.2ca3211c.js.map": "/Amaranadh_portfolio/static/js/main.2ca3211c.js.map",
+    "main.8f7f6288.css.map": "/Amaranadh_portfolio/static/css/main.8f7f6288.css.map",
+    "main.b1e08302.js.map": "/Amaranadh_portfolio/static/js/main.b1e08302.js.map",
     "787.a41e74c1.chunk.js.map": "/Amaranadh_portfolio/static/js/787.a41e74c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a587d22.css",
-    "static/js/main.2ca3211c.js"
+    "static/css/main.8f7f6288.css",
+    "static/js/main.b1e08302.js"
   ]
 }
