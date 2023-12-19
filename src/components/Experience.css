@@ -47,10 +47,12 @@
 .skill_box p{
     position: relative;
     top:-12vh;
-    font-size: 15px;
+    font-size: 14.9px;
     padding: 25px 10px 25px 25px;
+    text-align: justify;
+   
 }
-.html,.css,.js,.react,.figma,.ui{
+.html,.css,.js,.react,.figma,.python{
     width: 18vb;
     height: 15vh;  
 }
@@ -77,6 +79,7 @@
 
     .skill_box p {
         padding: 1px 10px;
+        font-size: 13px;
     }
 }
 

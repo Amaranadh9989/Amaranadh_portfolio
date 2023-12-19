@@ -5,7 +5,7 @@ import css from './images/css.png';
 import js from './images/js.png';
 import react from './images/react.png';
 import figma from './images/figma.png'; 
-import ui from './images/ui.png';
+import python from './images/python.png';
 import {RiAwardFill} from "react-icons/ri";
 const Experience = () => {
     return (
@@ -25,8 +25,11 @@ const Experience = () => {
                        <div>
                             <h3>Hyper Text Markup Language</h3><br/>
                            <h4><RiAwardFill style={{position:'relative',top:'2px'}}/>Expert Level</h4><br/>
-                            <p>The HyperText Markup Language or HTML is the standard markup 
-                            language for documents designed to be displayed in a web browser.
+                            <p>The HyperText Markup Language or HTML is the standard markup language 
+                                for documents designed to be displayed in a web browser. It defines 
+                                the content and structure of web content. It is often assisted by 
+                                technologies such as Cascading Style Sheets and scripting languages 
+                                such as JavaScript.
                             </p>
                        </div>
                      </div>
@@ -37,9 +40,10 @@ const Experience = () => {
                         <div>
                             <h3 >Cascading Style Sheets</h3><br/>
                             <h4><RiAwardFill style={{position:'relative',top:'2px'}}/>Expert Level</h4><br/>
-                            <p>Cascading Style Sheets is a style sheet language used for 
-                                describing the presentation of a document written in a markup
-                                 language such as HTML or XML.
+                            <p>Cascading Style Sheets is a style sheet language used for specifying the 
+                                presentation and styling of a document written in a markup language such
+                                 as HTML or XML.CSS is a cornerstone technology of the World Wide
+                                  Web, alongside HTML and JavaScript.
                             </p>
                        </div>
                          </div> 
@@ -49,9 +53,11 @@ const Experience = () => {
                      </div>
                         <div>
                             <h3 >JavaScript</h3><br/>
-                            <h4 ><RiAwardFill style={{position:'relative',top:'2px'}}/> Beginner Level</h4><br/>
-                            <p>JavaScript was originally named Mocha, later it was renamed to
-                                 LiveScript, and then to JavaScript. 
+                            <h4 ><RiAwardFill style={{position:'relative',top:'2px'}}/>Intermediate Level</h4><br/>
+                            <p>JavaScript, often abbreviated as JS, is a programming language and core
+                                 technology of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7%
+                                  of websites use JavaScript on the client side for webpage behavior, often
+                                   incorporating third-party libraries.
                             </p>
                        </div>
                      </div>
@@ -62,9 +68,10 @@ const Experience = () => {
                         <div>
                             <h3 >ReactJS</h3><br/>
                             <h4><RiAwardFill style={{position:'relative',top:'2px'}}/>Intermediate Level</h4><br/>
-                            <p>React is a JavaScript library for building user interfaces. It is the view
-                                 layer for web applications. At the heart of all React applications are 
-                                 components.
+                            <p>React is a free and open-source front-end JavaScript library for building
+                                 user interfaces based on components.It is maintained by Meta and a community
+                                  of individual developers and companies.React can be used to develop single-page, 
+                                  mobile.
                             </p>
                        </div>
                      </div>
@@ -75,20 +82,24 @@ const Experience = () => {
                         <div>
                             <h3 >Figma</h3><br/>
                             <h4><RiAwardFill style={{position:'relative',top:'2px'}}/>Intermediate Level</h4><br/>
-                            <p> Figma is a cloud-based design tool that is similar to Sketch in functionality 
-                                and features.
+                            <p> Figma is a collaborative web application for interface design, with additional
+                                 offline features enabled by desktop applications for macOS and Windows. 
+                                 The feature set of Figma focuses on user interface and user experience
+                                  design
                             </p>
                        </div>
                      </div>
                      <div className='skill_box'>
                         <div className='skill_img'>
-                         <img src={ui} alt='image logo' className='ui'/>
+                         <img src={python} alt='image logo' className='python'/>
                          </div>
                          <div>
-                            <h3>User Experience</h3><br/>
-                            <h4><RiAwardFill style={{position:'relative',top:'2px'}}/> Beginner Level</h4><br/>
-                            <p>UX stands for user experience, while UI is short for User Interface. Both these 
-                                aspects are intertwined to produce the desired results.
+                            <h3>Python</h3><br/>
+                            <h4><RiAwardFill style={{position:'relative',top:'2px'}}/> Intermediate Level</h4><br/>
+                            <p>Python is a high-level, general-purpose programming language. Its design
+                                 philosophy emphasizes code readability with the use of significant indentation.
+                                  Python is dynamically typed and garbage-collected. It supports multiple
+                                   programming paradigms, including structured,oops.
                             </p>
                        </div>
                      </div>
