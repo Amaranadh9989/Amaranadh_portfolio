@@ -2,7 +2,7 @@ import React from 'react';
 import './Project.css';
 import easylearn from './images/project_1.png';
 import g4g from './images/project_2.png';
-import learnunique from './images/project_3.png';
+import movie from './images/Movie_Hub.png';
 const Project = () => {
     return (
         <div id='Project' className='Project'>
@@ -37,12 +37,14 @@ const Project = () => {
                 </div>
                 </div>
                 <div className='project_card'>
-                <img src={learnunique} alt='image logo' className='easylearn'/>
+                <img src={movie} alt='image logo' className='easylearn'/>
                 <div className='project_button'>
                 <a href='https://github.com/Amaranadh9989' target='blank'rel="noopener noreferrer" className='github_link'>
                     Github
                 </a>
-                    <span className='live_demo'>Live Demo</span>
+                <a href='https://amaranadh9989.github.io/Amaranadh_movie_creations/' target='blank'rel="noopener noreferrer" className='demo_link'>
+                    Live Demo
+                  </a>
                 </div>
                 </div>
             </div>

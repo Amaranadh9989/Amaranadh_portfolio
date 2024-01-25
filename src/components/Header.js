@@ -32,7 +32,7 @@ const Header = () => {
                         <a href="#MainPage"><span><FaHome className='icon'/>home</span></a>
                         <a href="#About"><span><FaUserGraduate className='icon'/>About</span></a>
                         <a href="#Experience"><span><FaLayerGroup className='icon'/>Experience</span></a> 
-                        <a href="https://drive.google.com/file/d/1EQwJWV545F1VDaRtYgcY9ikAdETD18Ti/view?usp=sharing" target="blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1W9HbJLo_cWqQdVenG6vlZbIq6ilbWaEg/view?usp=drive_link" target="blank" rel="noopener noreferrer">
                             <span><FaFileAlt className='icon'/>Resume</span>
                         </a>  
                         <a href="#Project"><span><FaMedal className='icon'/>Project</span></a> 
@@ -45,7 +45,7 @@ const Header = () => {
                         <a href="#MainPage"><span><FaHome className='icon'/>Home</span></a>
                         <a href="#About"><span><FaUserGraduate className='icon'/>About</span></a>
                         <a href="#Experience"><span><FaLayerGroup className='icon'/>Experience</span></a> 
-                        <a href="https://drive.google.com/file/d/1EQwJWV545F1VDaRtYgcY9ikAdETD18Ti/view?usp=sharing" target="blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1W9HbJLo_cWqQdVenG6vlZbIq6ilbWaEg/view?usp=drive_link" target="blank" rel="noopener noreferrer">
                             <span><FaFileAlt className='icon'/>Resume</span>
                         </a>  
                         <a href="#Project"><span><FaMedal className='icon'/>Project</span></a> 
