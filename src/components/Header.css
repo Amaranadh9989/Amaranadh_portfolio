@@ -75,23 +75,3 @@
     }
 }
 /*Responsive*/
-@media screen and (max-width: 920px){
-    .header-sub{
-        display: none;
-    }
-    .header-Sub a{
-        text-decoration: none;
-        text-transform: capitalize;
-    }
-    .header-Sub span{
-        color:white
-    }
-    .manu_icon {
-        display: inline-block; /* Display in mobile view */
-        margin-right: 20px;
-        font-size: 50px;
-    }
-    .header-Sub .icon{
-        display: none;
-    }
-}

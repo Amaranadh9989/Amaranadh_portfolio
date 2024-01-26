@@ -87,31 +87,3 @@ font-size: 20px;
     }
 }
 /* Responsive View */
-@media screen and (max-width: 920px) {
-    .About{
-        height:1200px;
-    }
-    .about-sub .about_logo {
-        position: relative;
-        top:-5px;
-        margin-left: 2px;
-    }
-    .exp_box,.edu_box{
-        position: relative;
-        top:30px;
-   
-    }
-  
-    .exp_box{
-        margin-right: 90px;
-    }
-    .introduction_para {
-        position:absolute;
-        box-sizing: border-box;
-        padding: 0px 30px;
-        top:1790px;
-        font-size: 30px;
-        width:800px;
-      
-    }
-}

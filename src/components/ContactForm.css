@@ -99,32 +99,3 @@
     width:80%;
   }
 }
-@media (max-width:920px) {
-  .ContactForm{
-    height:500px;
-  }
-  .ContactForm h1{
-    position: relative;
-    top:20px;
-   }
-   #form_container {
-    position: relative;
-    top:5px;
-   }
-  .input-name,
-  .input-email,
-  .input-subject{
-    width: 350px;
- margin-left:-20px;
-  }
-  .input-message {
-    width:200px; 
-    top: 105px;/* Adjust the width for better spacing */
-    margin-right: 40px;
-  }
-  .input-submit{
-    position: absolute;
-    top:170px;
-    margin-left: -5px;
-  }
-}

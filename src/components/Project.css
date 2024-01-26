@@ -130,18 +130,3 @@
     }
 }
 /*Responsive*/
-@media screen and (max-width: 920px) {
-    .project_sub {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .project_card {
-        width:380px;
-    }
-    .project_card .easylearn {
-        width: 380px;
-        height: 200px;
-    }
-    .github_link,.demo_link{
-        top:50px;
-    }
-}

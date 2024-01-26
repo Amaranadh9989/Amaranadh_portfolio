@@ -83,37 +83,3 @@
     }
 }
 
-@media screen and (max-width:920px) {
-    .Experience{
-        height: 2300px;
-    }
-    .span_container{
-        position: relative;
-        top:5px;
-    }
-    .experience_sub {
-        position: relative;
-        top: 70px;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .skill_box {
-        width: 380px;
-        height: 670px;
-        margin: 0 auto;
-    }
-    .skill_box h3{
-        font-size: 25px;
-    }
-    .skill_box h4{
-        
-        font-size: 25px;
-    }
-
-    .skill_box p {
-        position: relative;
-        top:-130px;
-        padding:0px 20px;
-        font-size: 25px;
-    }
-}

@@ -49,29 +49,3 @@ cursor: pointer;
     }
 }
 /*Responsive*/
-@media (max-width: 920px) {
-    .Footer{
-        width: 100%;
-        height:200px;
-    }
-    .Footer-icons,
-    .Footer-contact-icons {
-position: relative;
-        display: block; /* Stack icons vertically */
-    }
-    .Footer-contact-icons{
-        position: absolute;
-        margin-left: 270px;
-        top: 50px;
-    }
-    .Footer-icons{
-        position: absolute;
-        margin-left: 200px;
-    }
-    .copywrite_container {
-    font-size: 30px;
-   position: absolute;
-   margin-left: 80px;
-   top:60px;
-    }
-}
