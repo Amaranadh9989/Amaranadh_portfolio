@@ -130,33 +130,18 @@
     }
 }
 /*Responsive*/
-@media only screen and (min-width: 668px) and (max-width: 776px){
-    .Project{
-        height: 200vh;
-         }
-        .project_sub {
-            position: relative;
-            top: 50px;
-            grid-template-columns: 1fr;
-        }
-    
-        .project_card {
-            width: 80%;
-            margin: 0 auto;
-        }
-    
-        .project_card .easylearn {
-            width: 100%;
-            height: 35vh;
-           
-           
-        }
-        .project_button span,
-        .github_link,
-        .live_demo,
-        .demo_link {
-            top:6.5vh;
-            margin-left:8vw;
-            width: 80%;
-        }
+@media screen and (max-width: 920px) {
+    .project_sub {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .project_card {
+        width:380px;
+    }
+    .project_card .easylearn {
+        width: 380px;
+        height: 200px;
+    }
+    .github_link,.demo_link{
+        top:50px;
+    }
 }

@@ -87,37 +87,31 @@ font-size: 20px;
     }
 }
 /* Responsive View */
-@media only screen and (min-width: 668px) and (max-width: 776px) {
-    .About {
-        height: 120vh;
+@media screen and (max-width: 920px) {
+    .About{
+        height:1200px;
     }
-
-    .about_container {
-        flex-direction: column;
-    }
-
-    .about-sub {
-        text-align: center;
-    }
-
     .about-sub .about_logo {
-        top: 5vh;
-        width: 70vw;
-        height: 40vh;
-        margin: 0;
+        position: relative;
+        top:-5px;
+        margin-left: 2px;
     }
-
-    .exp_box, .edu_box {
-        top: 5vh;
-        margin: 10px;
-        margin-right: 50px;
+    .exp_box,.edu_box{
+        position: relative;
+        top:30px;
+   
     }
-
+  
+    .exp_box{
+        margin-right: 90px;
+    }
     .introduction_para {
-        top: 10vh;
-        width: 80%;
-        margin: 0 auto;
-        font-size: 25px;
-        margin-right: 80px;
+        position:absolute;
+        box-sizing: border-box;
+        padding: 0px 30px;
+        top:1790px;
+        font-size: 30px;
+        width:800px;
+      
     }
 }

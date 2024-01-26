@@ -123,35 +123,31 @@ font-size: 60px;
     }
 }
 /* Responsive View */
-@media only screen and (min-width: 668px) and (max-width: 776px) {
-    .MainPage {
-        height: 95vh;
+@media screen and (max-width:920px) {
+    .MainPage{
+        height:600px;
+         }
+    .Amar_logo{
+       
+        width: 300px;
+        height:350px;
+        margin-right:15px;
     }
-
-    .amar_container {
-        top:35vh;
-    }
-
-    .name {
+    .name{
+        margin-left:30px;
         font-size: 40px;
-        margin-left: 50px;
-    }
-
-    .skill {
-        font-size: 25px;
-        margin-left: 60px;
-        padding-bottom: 10px;
-    }
-
-    .Amar_logo {
-        top: 25vh;
-        width: 35vh;
-        height: 45vh;
-        margin-right: 10vw;
-    }
-
-    .download_resume, .contact_me {
-        width: 40%;
-        font-size: 20px;
-    }
+        }
+        .skill{
+            font-size: 28px;
+            margin-left:30px;
+            padding-bottom: 20px;
+            }
+            .download_resume{
+                position: relative;
+                font-size: 20px;
+            }
+            .contact_me{
+                position: relative;
+                font-size: 25px;
+            }
 }

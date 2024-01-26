@@ -110,18 +110,40 @@
 
 /* Tablet View */
 /* Responsive View */
-@media only screen and (min-width: 668px) and (max-width: 776px) {
+@media screen and (max-width: 920px) {
     .Contact {
-        height: 10vh;
+        height: 190px;
     }
-    .contact-container{
-        margin-right: 3vw;
-
-    }
+    
     .icon-container {
-        margin-left: 2vw;
+       margin-left: auto;
+       margin-right: auto;
+        justify-content: center;
     }
-    .team-contact{
-        padding-right: 10px;
+    
+    .contact-container {
+        text-align: center; /* Centering the text in the container */
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 45px;
+        justify-content: center; 
+    }
+
+    .team-contact {
+        font-size: 2vh;
+        text-align: center;
+        display: block; /* Displaying each contact on a new line */
+        margin-bottom: 5px; /* Adding some space between contacts */
+    }
+    #team-contact-1{
+        margin-right: 150px;
+    }
+    #team-contact-2{
+        margin-right: 160px;
+    }
+    .team-icon {
+        font-size: 2.5vh;
+        top: 0.5vh;
     }
 }

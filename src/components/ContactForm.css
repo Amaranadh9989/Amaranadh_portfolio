@@ -99,36 +99,32 @@
     width:80%;
   }
 }
-@media only screen and (min-width: 668px) and (max-width: 776px) {
-  .ContactForm {
-      height:60vh; /* Adjusted height for better visibility on smaller screens */
+@media (max-width:920px) {
+  .ContactForm{
+    height:500px;
   }
-
-  h1 {
-      top: 5vh; /* Adjusted top position for better alignment */
+  .ContactForm h1{
+    position: relative;
+    top:20px;
+   }
+   #form_container {
+    position: relative;
+    top:5px;
+   }
+  .input-name,
+  .input-email,
+  .input-subject{
+    width: 350px;
+ margin-left:-20px;
   }
-
-  #form_container {
-      top: 5vh; 
-      margin: 5vh auto;
-  }
-
-  .input-name, .input-email, .input-subject, .input-message {
-      width: 60%; 
-  }
-
-  .input-submit {
-      top:-18vh;
-      margin-left:12vw; 
-      width: 70%;
-  }
-
-  #mesage_container {
-      top: -24.5vh; /* Adjusted top position for better alignment */
-      margin-right:20px; /* Centered the message container */
-  }
-
   .input-message {
-      width: 100%; /* Adjusted width for better responsiveness */
+    width:200px; 
+    top: 105px;/* Adjust the width for better spacing */
+    margin-right: 40px;
+  }
+  .input-submit{
+    position: absolute;
+    top:170px;
+    margin-left: -5px;
   }
 }
