@@ -216,12 +216,17 @@ font-size: 20px;
     }
 }
 @media screen and (max-width:380px){
+    .About{
+        height:850px;
+    }
     .edu_box,.exp_box{
         top:5vh ;
-        width: 80%;
-        padding: 15px;
+        width: 85%;
         margin: 5px 40px;
+        font-size: 20px;
     }
-
+    .introduction_para {
+       font-size: 20px;
+    }
 }
 /* Responsive View */
