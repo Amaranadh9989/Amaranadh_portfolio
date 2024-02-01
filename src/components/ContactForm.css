@@ -90,13 +90,14 @@ h1 {
     margin-left: -5px;
   }
 }
+/*test*/
 @media (max-width:1024px){
-.input-message {
-  width:200px; 
-  top:-25px;
-  margin-right:80px;
-}
-}
+  .input-message {
+    width:200px; 
+    top:155px;
+    margin-right:80px;
+  }
+  }
 @media (max-width:920px){
   #form_container {
     top:-40px;

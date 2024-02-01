@@ -92,6 +92,7 @@
         height:650px;
     }
 }
+/*test*/
 @media screen and (max-width:1024px) {
     .project_card {
         width:315px;

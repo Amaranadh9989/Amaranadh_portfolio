@@ -53,31 +53,32 @@
     margin-left: 15px;
     font-size: 20px;
     display: none;
-}
+}/*test*/
 @media screen and (max-width: 1042px) {
     .navbar{
         width:100%;
     }
-    .logo {
-        top: -5vh;
+    .manu_icon{
+        top:30px;
+        font-size: 30px;
     }
-
-    .header-container {
-        float: right;
-        justify-content: space-between;
-        align-items: center;
+    .header-sub{
+        display: none;
     }
-    .header-sub a {
-        text-align: center;
-        padding: 8px;
+    .header-Sub a{
+        text-decoration: none;
+        text-transform: capitalize;
     }
-
-    .header-sub span {
-        top:10px;
+    .header-Sub span{
+        color:white
     }
-
-    .header-sub .icon {
-        top:2px;
+    .manu_icon {
+        display: inline-block; /* Display in mobile view */
+        margin-right: 20px;
+        font-size: 50px;
+    }
+    .header-Sub .icon{
+        display: none;
     }
 
 }

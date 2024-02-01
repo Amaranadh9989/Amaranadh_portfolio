@@ -79,38 +79,27 @@ font-size: 20px;
         top: -50px;
     }
 }
+/*test*/
 @media screen and (max-width: 1024px) {
     .About{
         height:600px;
     }
     .about-sub .about_logo {
         width: 320px;
-        top: 35px;
-        margin-left: 20px;
-    
+        height: 300px;
     }
-
     .exp_box,
     .edu_box {
-        top: 100px;
-        width:28%;
+        width:28%; 
         margin: 0 5px; 
     }
-
     .exp_box{
-        padding: 10px; 
-        margin-right: 50px;
+        margin-right:43px;
     }
-    .edu_box{
-        padding: 25px;
-        
-    }
-
     .introduction_para {
-        font-size: 25px;
-        width:650px;
-        margin-right:5px;
-        top: -50px;
+        font-size: 23px;
+        width:580px;
+        margin-right:20px;
     }
 }
 @media screen and (max-width: 920px) {

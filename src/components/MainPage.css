@@ -109,17 +109,38 @@ font-size: 60px;
     .contact_me {
         font-size: 18px; 
     }
-}
+}/*test*/
 @media screen and (max-width: 1024px) {
-
-    .Amar_logo {
-        top:100px; 
-        margin: 0 auto;
-        margin-right:180px;
+    .MainPage{
+        height:600px;
+         }
+    .Amar_logo{
+       
+        width: 300px;
+        height:350px;
+        margin-right:80px;
     }
     .amar_container {
-        top:150px; 
+        top:200px; 
+        margin-left: 50px;
     }
+    .name{
+        margin-left:30px;
+        font-size: 40px;
+        }
+        .skill{
+            font-size: 28px;
+            margin-left:30px;
+            padding-bottom: 20px;
+            }
+            .download_resume{
+                position: relative;
+                font-size: 20px;
+            }
+            .contact_me{
+                position: relative;
+                font-size: 25px;
+            }
 
 }
 @media screen and (max-width:920px) {

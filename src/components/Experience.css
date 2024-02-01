@@ -61,6 +61,7 @@
         height: 1000px;
     }
 }
+/*test*/
 @media screen and (max-width:1024px) {
     .Experience{
         height: 1800px;
@@ -79,8 +80,8 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .skill_box {
-        width: 480px;
+   .skill_box {
+         width: 450px;
         height: 510px;
         margin: 0 auto;
     }

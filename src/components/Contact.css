@@ -36,7 +36,45 @@
     font-size: 3vh;
     cursor: pointer;
 }
-/* Mobile View */
+/* test*/
+@media screen and (max-width: 1024px) {
+    .Contact {
+        height: 18vh;
+    }
+    
+    .icon-container {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    
+    .contact-container {
+        text-align: center; /* Centering the text in the container */
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 5vh;
+        justify-content: center; 
+    }
+
+    .team-contact {
+        font-size: 2vh;
+        text-align: center;
+        display: block; /* Displaying each contact on a new line */
+        margin-bottom: 5px; /* Adding some space between contacts */
+    }
+    #team-contact-1{
+        margin-right:250px;
+    }
+    #team-contact-2{
+        margin-right: 220px;
+    }
+    .team-icon {
+        font-size: 2.5vh;
+        top: 0.5vh;
+    }
+}
+/**/
 @media screen and (max-width: 920px) {
     .Contact {
         height: 190px;
