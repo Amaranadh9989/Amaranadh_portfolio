@@ -39,7 +39,7 @@
 /* test*/
 @media screen and (max-width: 1024px) {
     .Contact {
-        height: 18vh;
+        height: 17.8vh;
     }
     
     .icon-container {
@@ -64,7 +64,7 @@
         margin-bottom: 5px; /* Adding some space between contacts */
     }
     #team-contact-1{
-        margin-right:150px;
+        margin-right:160px;
     }
     #team-contact-2{
         margin-right: 150px;
