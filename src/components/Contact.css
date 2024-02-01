@@ -121,7 +121,7 @@
 }
 @media screen and (max-width:400px){
     #team-contact-1{
-        margin-right: 5px;
+        display: none;
     }
 }
 @media screen and (max-width:380px){
