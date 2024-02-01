@@ -126,7 +126,7 @@
 }
 @media screen and (max-width:380px){
     #team-contact-1{
-      display: none;
+        margin-right: 30px;
     }
 }
 /* Tablet View */
