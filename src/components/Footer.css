@@ -41,7 +41,7 @@ cursor: pointer;
 @media (max-width:1024px){
     .Footer{
         width: 100%;
-        height:180px;
+        height:200px;
     }
     .Footer-icons,
     .Footer-contact-icons {
