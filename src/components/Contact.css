@@ -36,40 +36,52 @@
     font-size: 3vh;
     cursor: pointer;
 }
-
-/* Media Queries */
-
 /* Mobile View */
-/*@media only screen and (max-width: 480px) {
-    .Contact{
-        height: 15vh;
-        
+@media screen and (max-width: 920px) {
+    .Contact {
+        height: 190px;
     }
+    
     .icon-container {
-        margin-left: auto;
-        margin-right: auto;
+       margin-left: auto;
+       margin-right: auto;
         justify-content: center;
     }
-    .contact-container{
-        position: relative;
-        top: 5vh;
+    
+    .contact-container {
+        text-align: center; /* Centering the text in the container */
         margin-left: auto;
         margin-right: auto;
+        position: relative;
+        top: 45px;
         justify-content: center; 
     }
 
     .team-contact {
         font-size: 2vh;
-        padding-right: 15px;
         text-align: center;
+        display: block; /* Displaying each contact on a new line */
+        margin-bottom: 5px; /* Adding some space between contacts */
     }
-
+    #team-contact-1{
+        margin-right: 150px;
+    }
+    #team-contact-2{
+        margin-right: 160px;
+    }
     .team-icon {
         font-size: 2.5vh;
         top: 0.5vh;
     }
-}*/
-/* Mobile View */
+}
+@media screen and (max-width: 768px) {
+    #team-contact-1{
+        margin-right: 170px;
+    }
+    #team-contact-2{
+        margin-right: 170px;
+    }
+}
 @media only screen and (max-width: 480px) {
     .Contact {
         height: 18vh;
@@ -107,6 +119,15 @@
         top: 0.5vh;
     }
 }
-
+@media screen and (max-width:400px){
+    #team-contact-1{
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width:380px){
+    #team-contact-1{
+        margin-right: 50px;
+    }
+}
 /* Tablet View */
 /* Responsive View */

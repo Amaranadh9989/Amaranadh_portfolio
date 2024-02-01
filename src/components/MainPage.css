@@ -75,15 +75,121 @@ font-size: 60px;
     border: none;
     color: white;
 }
+@media screen and (max-width: 1280px) {
+    .MainPage {
+        width:100%;
+        height: 80vh; 
+    }
+
+    .Amar_logo {
+        top:100px; 
+        margin: 0 auto;
+        margin-right:20vw;
+    }
+    .amar_container {
+        top:220px; 
+        margin-left: 180px;
+    }
+
+    .name {
+        font-size: 40px; 
+    }
+
+    .skill {
+        font-size: 30px; 
+        margin-left: 30px;
+        padding-bottom: 15px; 
+    }
+
+    .download_resume {
+        width: 20%;
+        font-size: 18px; 
+    }
+
+    .contact_me {
+        font-size: 18px; 
+    }
+}
+@media screen and (max-width: 1024px) {
+
+    .Amar_logo {
+        top:100px; 
+        margin: 0 auto;
+        margin-right:180px;
+    }
+    .amar_container {
+        top:150px; 
+    }
+
+}
+@media screen and (max-width:920px) {
+    .MainPage{
+        height:600px;
+         }
+    .Amar_logo{
+       
+        width: 300px;
+        height:350px;
+        margin-right:80px;
+    }
+    .amar_container {
+        top:200px; 
+        margin-left: 50px;
+    }
+    .name{
+        margin-left:30px;
+        font-size: 40px;
+        }
+        .skill{
+            font-size: 28px;
+            margin-left:30px;
+            padding-bottom: 20px;
+            }
+            .download_resume{
+                position: relative;
+                font-size: 20px;
+            }
+            .contact_me{
+                position: relative;
+                font-size: 25px;
+            }
+}
+@media screen and (max-width:820px) {
+    .Amar_logo{
+        width: 300px;
+        height:350px;
+        margin-right:50px;
+    }
+    .amar_container {
+        top:200px; 
+        margin-left: 40px;
+    }
+    .download_resume{
+        position: relative;
+        font-size:20px;
+    }
+    .contact_me{
+        position: relative;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    .Amar_logo{
+        margin-right:30px;
+    }
+    .amar_container {
+        margin-left: 30px;
+    }
+}
 @media screen and (max-width: 480px) {
     .MainPage{
-       height:85vh;
+       height:600px;
         }
     .Amar_logo {
         top: 20px;
         float: none;
         margin: 0 auto;
-        margin-left: 30px;
+        margin-left: 50px;
     }
 
     .amar {
@@ -96,6 +202,7 @@ font-size: 60px;
     .amar_container {
         position: relative;
         top: 30px;
+        margin-left: 5px;
         
     }
 
@@ -123,3 +230,4 @@ font-size: 60px;
     }
 }
 /* Responsive View */
+
