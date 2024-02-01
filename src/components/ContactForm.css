@@ -93,11 +93,11 @@ h1 {
 /*test*/
 @media (max-width:1024px){
   #form_container {
-    top:-40px;
+    top:-80px;
   }
   .input-message {
     width:200px; 
-    top:255px;
+    top:285px;
     margin-right:80px;
   }
   }

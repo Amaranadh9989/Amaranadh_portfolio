@@ -82,7 +82,7 @@ font-size: 20px;
 /*test*/
 @media screen and (max-width: 1024px) {
     .About{
-        height:700px;
+        height:690px;
     }
     .about-sub .about_logo {
         width: 320px;
@@ -98,7 +98,7 @@ font-size: 20px;
     }
     .introduction_para {
         font-size: 23px;
-        width:600px;
+        width:650px;
         margin-right:100px;
     }
 }

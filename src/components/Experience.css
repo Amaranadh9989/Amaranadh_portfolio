@@ -58,7 +58,7 @@
 }
 @media screen and (max-width: 1280px){
     .Experience{
-        height: 1000px;
+        height: 1010px;
     }
 }
 /*test*/
@@ -82,7 +82,7 @@
 
    .skill_box {
          width: 450px;
-        height: 530px;
+        height: 550px;
         margin: 0 auto;
     }
    
