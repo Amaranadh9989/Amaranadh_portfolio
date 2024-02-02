@@ -130,39 +130,44 @@ h1 {
 }
 }
 @media (max-width: 480px) {
-.ContactForm{
-  height: 600px;
-}
-.ContactForm h1{
-position: relative;
-top:30px;
-}
-#form_container{
-  position: relative;
-  top:15px;
-  margin-left: 40px;
-}
-.half {
-  width: 100%;
-  float: none;
-  margin-bottom: 1em; /* Add margin between the input fields */
-}
+  .ContactForm {
+    height: 600px;
+  }
 
-.input-name,
-.input-email,
-.input-subject,
-.input-message {
-  width: 80%; 
-  margin-left: 5px;
-}
-#mesage_container {
-  margin-right: 0;
-  top: -80px; /* Adjust the position for better spacing */
-}
-.input-submit{
-  position: relative;
-  top:10px;
-  width:80%;
-  margin-left: 20px;
-}
+  .ContactForm h1 {
+    position: relative;
+    top: 30px;
+  }
+
+  #form_container {
+    position: relative;
+    top: 15px;
+    margin-left: 40px;
+  }
+
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 1em; /* Add margin between the input fields */
+  }
+
+  .input-name,
+  .input-email,
+  .input-subject,
+  .input-message {
+    width: 80%;
+    margin-left: 5px;
+  }
+
+  #message_container {
+    margin-right: 0;
+    top: -80px; /* Adjust the position for better spacing */
+  }
+
+  .input-submit {
+    position: relative;
+    top: 10px;
+    width: 80%;
+    margin-left: 20px;
+  }
 }
