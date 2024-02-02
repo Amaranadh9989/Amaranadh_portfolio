@@ -97,7 +97,7 @@ h1 {
   }
   .input-message {
     width:200px; 
-    top:290px;
+    top:270px;
     margin-right:80px;
   }
   }
@@ -107,11 +107,13 @@ h1 {
   }
   .input-message {
     top:155px;
+    display: none;
   }
   }
 @media (max-width:820px){
     .input-message {
       top:110px;
+      display: none;
     }
 }
 @media (max-width:768px){
