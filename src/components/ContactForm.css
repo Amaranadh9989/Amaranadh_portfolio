@@ -92,19 +92,30 @@ h1 {
 }
 /*test*/
 @media screen and(max-width:1024px){
-  #form_container {
-    top:150px;
+  .ContactForm{
+    height:450px;
   }
+  .ContactForm h1{
+    top:20px;
+   }
+   #form_container {
+    top:5px;
+   }
   .input-name,
-.input-email
-{
-    margin-bottom: 18px; 
-}
-
+  .input-email,
+  .input-subject{
+    width: 350px;
+ margin-left:-20px;
+  }
   .input-message {
     width:200px; 
-    top:300px;
-    margin-right:80px;
+    top:20px;
+    margin-right:100px;
+  }
+  .input-submit{
+    position: absolute;
+    top:170px;
+    margin-left: -5px;
   }
   }
 @media (max-width:920px){
@@ -164,8 +175,8 @@ h1 {
   }
   .input-submit{
     position: relative;
-    top:2px;
+    top:-2px;
     width:80%;
-    margin-left:5px;
+    margin-left:8px;
   }
 }
