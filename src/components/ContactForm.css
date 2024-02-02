@@ -108,12 +108,12 @@ h1 {
   .input-name,
   .input-email,
   .input-subject {
-    width: 50%; /* Adjust the width as needed */
+    width: 50%;
     margin-left: -20px;
   }
 
   .input-message {
-    width: 90%; /* Adjust the width as needed */
+    width: 80%; 
     top: 280px;
     margin-right:150px;
   }
@@ -149,7 +149,7 @@ h1 {
 }
 @media (max-width: 480px) {
   .ContactForm{
-    height:600px;
+    height:550px;
   }
  .ContactForm h1{
   position: relative;
@@ -171,7 +171,7 @@ h1 {
   .input-subject,
   .input-message {
     width: 80%;
-    margin-left: 4px; /* Adjust the width for better spacing */
+    margin-left: 3px; /* Adjust the width for better spacing */
   }
   .input-message{
     top:-20px;
@@ -182,7 +182,7 @@ h1 {
   }
   .input-submit{
     position: relative;
-    top:-5px;
+    top:-7px;
     width:80%;
     margin-left:12px;
   }
