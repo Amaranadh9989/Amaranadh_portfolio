@@ -93,7 +93,7 @@ h1 {
 /*test*/
 @media (max-width:1024px){
   #form_container {
-    top:-80px;
+    top:-50px;
   }
   .input-message {
     width:200px; 

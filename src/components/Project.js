@@ -20,7 +20,7 @@ const Project = () => {
                 <a href='https://github.com/Amaranadh9989' target='blank'rel="noopener noreferrer" className='github_link'>
                     Github
                 </a>
-                    <a href="https://easytolearn.azurewebsites.net/" target='blank'rel="noopener noreferrer" className='demo_link'>
+                    <a href="#" target='blank'rel="noopener noreferrer" className='demo_link'>
                         Live Demo
                     </a>
                 </div>
