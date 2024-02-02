@@ -95,6 +95,12 @@ h1 {
   #form_container {
     top:-80px;
   }
+  .input-name,
+.input-email,
+.input-subject {
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+
   .input-message {
     width:200px; 
     top:275px;
