@@ -91,7 +91,7 @@ h1 {
   }
 }
 /*test*/
-@media screen and (max-width:1024px){
+@media screen and(max-width:1024px){
   #form_container {
     top:-80px;
   }
@@ -152,8 +152,7 @@ h1 {
   .input-email,
   .input-subject,
   .input-message {
-    width: 80%; 
-    margin-left: 5px;/* Adjust the width for better spacing */
+    width: 80%; /* Adjust the width for better spacing */
   }
   #mesage_container {
     margin-right: 0;
@@ -163,6 +162,5 @@ h1 {
     position: relative;
     top:10px;
     width:80%;
-    margin-left: 20px;
   }
 }
