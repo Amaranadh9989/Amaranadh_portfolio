@@ -131,7 +131,7 @@ h1 {
 }
 @media (max-width: 480px) {
   .ContactForm{
-      height: 600px;
+    height: 85vh;
   }
  .ContactForm h1{
   position: relative;
