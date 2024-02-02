@@ -130,21 +130,18 @@ h1 {
 }
 }
 @media (max-width: 480px) {
-  .ContactForm {
-    height: 600px;
+  .ContactForm{
+    height: 85vh;
   }
-
-  .ContactForm h1 {
+ .ContactForm h1{
+  position: relative;
+  top:30px;
+ }
+  #form_container{
     position: relative;
-    top: 30px;
-  }
-
-  #form_container {
-    position: relative;
-    top: 15px;
+    top:15px;
     margin-left: 40px;
   }
-
   .half {
     width: 100%;
     float: none;
@@ -155,19 +152,15 @@ h1 {
   .input-email,
   .input-subject,
   .input-message {
-    width: 80%;
-    margin-left: 5px;
+    width: 80%; /* Adjust the width for better spacing */
   }
-
-  #message_container {
+  #mesage_container {
     margin-right: 0;
-    top: -80px; /* Adjust the position for better spacing */
+    top: 0; /* Adjust the position for better spacing */
   }
-
-  .input-submit {
+  .input-submit{
     position: relative;
-    top: 10px;
-    width: 80%;
-    margin-left: 20px;
+    top:10px;
+    width:80%;
   }
 }
