@@ -91,10 +91,10 @@ h1 {
   }
 }
 /*test*/
-/* Adjustments for devices with a maximum width of 1024px */
+
 @media screen and (max-width: 1024px) {
   .ContactForm {
-    height: 450px;
+    height: 500px;
   }
 
   h1 {
@@ -102,7 +102,7 @@ h1 {
   }
 
   #form_container {
-    top:-40px;
+    top:-50px;
   }
 
   .input-name,
@@ -114,8 +114,8 @@ h1 {
 
   .input-message {
     width: 90%; /* Adjust the width as needed */
-    top: 300px;
-    margin-right:50px;
+    top: 280px;
+    margin-right:150px;
   }
 
   .input-submit {
