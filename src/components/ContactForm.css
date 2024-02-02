@@ -152,15 +152,17 @@ h1 {
   .input-email,
   .input-subject,
   .input-message {
-    width: 80%; /* Adjust the width for better spacing */
+    width: 80%; 
+    margin-left: 5px;/* Adjust the width for better spacing */
   }
   #mesage_container {
     margin-right: 0;
-    top: 0; /* Adjust the position for better spacing */
+    top: -80px; /* Adjust the position for better spacing */
   }
   .input-submit{
     position: relative;
     top:10px;
     width:80%;
+    margin-left: 20px;
   }
 }
