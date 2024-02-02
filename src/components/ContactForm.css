@@ -92,30 +92,11 @@ h1 {
 }
 /*test*/
 @media screen and(max-width:1024px){
-  .ContactForm{
-    height:450px;
-  }
-  .ContactForm h1{
-    top:20px;
-   }
-   #form_container {
-    top:5px;
-   }
-  .input-name,
-  .input-email,
-  .input-subject{
-    width: 350px;
- margin-left:-20px;
+  #form_container {
+    top:-40px;
   }
   .input-message {
-    width:200px; 
-    top:20px;
-    margin-right:100px;
-  }
-  .input-submit{
-    position: absolute;
-    top:170px;
-    margin-left: -5px;
+    top:155px;
   }
   }
 @media (max-width:920px){
