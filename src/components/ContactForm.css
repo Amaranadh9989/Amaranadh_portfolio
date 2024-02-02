@@ -91,7 +91,7 @@ h1 {
   }
 }
 /*test*/
-@media (max-width:1024px){
+@media (max-width:1025px){
   .input-message {
     width:200px; 
     top:320px;
