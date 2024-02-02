@@ -92,11 +92,14 @@ h1 {
 }
 /*test*/
 @media screen and(max-width:1024px){
+  .ContactForm{
+    height:500px;
+  }
   #form_container {
-    top:-40px;
+    top:-50px;
   }
   .input-message {
-    top:155px;
+    top:355px;
   }
   }
 @media (max-width:920px){
@@ -156,8 +159,8 @@ h1 {
   }
   .input-submit{
     position: relative;
-    top:-2px;
+    top:-5px;
     width:80%;
-    margin-left:8px;
+    margin-left:12px;
   }
 }
