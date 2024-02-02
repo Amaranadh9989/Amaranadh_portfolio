@@ -164,10 +164,29 @@
 }
 
 @media screen and (max-width: 400px){
+    .Experience{
+        height: 2500px;
+    }
     .skill_box {
-        width: 360px;
-        height: 420px;
+        width: 310px;
+        height: 360px;
         margin: 0 auto;
+    }
+    .html,.css,.js,.react,.figma,.python{
+        width:100px;
+        height:120px;  
+    }
+    .skill_box h3{
+        top: -12px;
+       font-size: 20px;
+    }
+    .skill_box h4{
+        font-size: 18px;
+        padding-bottom:15px;
+    }
+    .skill_box p{
+        font-size: 13px;
+       
     }
 }
 @media screen and (max-width:380px){

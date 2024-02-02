@@ -211,6 +211,8 @@ font-size: 20px;
     }
     .introduction_para {
        font-size: 20px;
+       width:85%;
+       margin:20px 20px;
     }
 }
 @media screen and (max-width:380px){
