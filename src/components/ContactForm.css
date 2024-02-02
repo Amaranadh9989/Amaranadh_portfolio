@@ -83,6 +83,7 @@ h1 {
     width:200px; 
     top:20px;
     margin-right:100px;
+    display: none;
   }
   .input-submit{
     position: absolute;
@@ -123,6 +124,7 @@ h1 {
 .input-message {
   top:75px;
   margin-right:70px;
+  display: none;
 }
 }
 @media (max-width: 480px) {
