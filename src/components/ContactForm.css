@@ -91,19 +91,40 @@ h1 {
   }
 }
 /*test*/
-@media screen and(max-width:1024px){
-  .ContactForm{
-    height:500px;
+/* Adjustments for devices with a maximum width of 1024px */
+@media screen and (max-width: 1024px) {
+  .ContactForm {
+    height: 450px;
   }
+
+  h1 {
+    top: 20px;
+  }
+
   #form_container {
-    position: absolute;
-    top:-50px;
+    top: 5px;
   }
+
+  .input-name,
+  .input-email,
+  .input-subject {
+    width: 80%; /* Adjust the width as needed */
+    margin-left: -20px;
+  }
+
   .input-message {
-    position:absolute;
-    top:355px;
+    width: 80%; /* Adjust the width as needed */
+    top: 20px;
+    margin-right: 0;
   }
+
+  .input-submit {
+    position: absolute;
+    top: 170px;
+    margin-left: -5px;
   }
+}
+
 @media (max-width:920px){
   #form_container {
     top:-40px;
