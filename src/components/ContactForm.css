@@ -93,7 +93,7 @@ h1 {
 /*test*/
 @media screen and(max-width:1024px){
   #form_container {
-    top:-150px;
+    top:150px;
   }
   .input-name,
 .input-email
@@ -164,8 +164,8 @@ h1 {
   }
   .input-submit{
     position: relative;
-    top:5px;
+    top:2px;
     width:80%;
-    margin-left:3px;
+    margin-left:5px;
   }
 }
