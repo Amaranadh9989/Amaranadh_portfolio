@@ -96,9 +96,11 @@ h1 {
     height:500px;
   }
   #form_container {
+    position: relative;
     top:-50px;
   }
   .input-message {
+    position: relative;
     top:355px;
   }
   }
