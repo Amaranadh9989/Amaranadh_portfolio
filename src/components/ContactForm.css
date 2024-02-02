@@ -96,9 +96,8 @@ h1 {
     top:-80px;
   }
   .input-message {
-    position: absolute;
     width:200px; 
-    top:270px;
+    top:275px;
     margin-right:80px;
   }
   }
