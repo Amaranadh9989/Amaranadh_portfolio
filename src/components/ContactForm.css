@@ -102,7 +102,7 @@ h1 {
   }
 
   #form_container {
-    top: 5px;
+    top:-40px;
   }
 
   .input-name,
@@ -113,9 +113,9 @@ h1 {
   }
 
   .input-message {
-    width: 80%; /* Adjust the width as needed */
-    top: 350px;
-    margin-right: 0;
+    width: 90%; /* Adjust the width as needed */
+    top: 300px;
+    margin-right:50px;
   }
 
   .input-submit {
