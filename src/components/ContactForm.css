@@ -91,20 +91,13 @@ h1 {
   }
 }
 /*test*/
-@media (max-width:1025px){
-  .input-message {
-    width:200px; 
-    top:320px;
-    margin-right:80px;
-  }
-}
 @media (max-width:1024px){
   #form_container {
     top:-80px;
   }
   .input-message {
     width:200px; 
-    top:270px;
+    top:290px;
     margin-right:80px;
   }
   }
