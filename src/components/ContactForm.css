@@ -153,7 +153,7 @@ h1 {
   .input-subject,
   .input-message {
     width: 80%;
-    margin-left: 4px; /* Adjust the width for better spacing */
+    margin-left: 5px; /* Adjust the width for better spacing */
   }
   #mesage_container {
     margin-right: 0;
@@ -161,7 +161,7 @@ h1 {
   }
   .input-submit{
     position: relative;
-    top:-180px;
+    top:10px;
     width:80%;
   }
 }
