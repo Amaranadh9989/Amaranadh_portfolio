@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Amaranadh_portfolio/static/css/main.a1974e04.css",
+    "main.css": "/Amaranadh_portfolio/static/css/main.1c6edbdd.css",
     "main.js": "/Amaranadh_portfolio/static/js/main.ad331db6.js",
     "static/js/787.a41e74c1.chunk.js": "/Amaranadh_portfolio/static/js/787.a41e74c1.chunk.js",
     "static/media/amaranadh.png": "/Amaranadh_portfolio/static/media/amaranadh.26deb11fc8896ca7ea75.png",
@@ -16,12 +16,12 @@
     "static/media/html.png": "/Amaranadh_portfolio/static/media/html.9d00e967bbcaded8bcb3.png",
     "static/media/figma.png": "/Amaranadh_portfolio/static/media/figma.fd6fa96f8e13344161f8.png",
     "index.html": "/Amaranadh_portfolio/index.html",
-    "main.a1974e04.css.map": "/Amaranadh_portfolio/static/css/main.a1974e04.css.map",
+    "main.1c6edbdd.css.map": "/Amaranadh_portfolio/static/css/main.1c6edbdd.css.map",
     "main.ad331db6.js.map": "/Amaranadh_portfolio/static/js/main.ad331db6.js.map",
     "787.a41e74c1.chunk.js.map": "/Amaranadh_portfolio/static/js/787.a41e74c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1974e04.css",
+    "static/css/main.1c6edbdd.css",
     "static/js/main.ad331db6.js"
   ]
 }
