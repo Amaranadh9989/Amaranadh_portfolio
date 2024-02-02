@@ -166,11 +166,11 @@
 
 @media screen and (max-width: 400px){
     .Experience{
-        height: 2500px;
+        height: 2470px;
     }
     .skill_box {
         width: 310px;
-        height: 360px;
+        height: 350px;
         margin: 0 auto;
     }
     .html,.css,.js,.react,.figma,.python{
@@ -192,11 +192,11 @@
 }
 @media screen and (max-width:380px){
     .Experience{
-        height: 2500px;
+        height: 2470px;
     }
     .skill_box {
         width: 310px;
-        height: 360px;
+        height: 350px;
         margin: 0 auto;
     }
     .html,.css,.js,.react,.figma,.python{
