@@ -96,14 +96,14 @@ h1 {
     top:-80px;
   }
   .input-name,
-.input-email,
-.input-subject {
-    margin-bottom: 25px; /* Adjust the value as needed */
+.input-email
+{
+    margin-bottom: 18px; 
 }
 
   .input-message {
     width:200px; 
-    top:280px;
+    top:275px;
     margin-right:80px;
   }
   }
