@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Amaranadh_portfolio/static/css/main.63330a31.css",
-    "main.js": "/Amaranadh_portfolio/static/js/main.ad331db6.js",
+    "main.js": "/Amaranadh_portfolio/static/js/main.18bab147.js",
     "static/js/787.a41e74c1.chunk.js": "/Amaranadh_portfolio/static/js/787.a41e74c1.chunk.js",
     "static/media/amaranadh.png": "/Amaranadh_portfolio/static/media/amaranadh.26deb11fc8896ca7ea75.png",
     "static/media/Movie_Hub.png": "/Amaranadh_portfolio/static/media/Movie_Hub.a98df70ea3f7af82802b.png",
-    "static/media/project_1.png": "/Amaranadh_portfolio/static/media/project_1.e243fa11eb8e9a35876e.png",
+    "static/media/learnhub.png": "/Amaranadh_portfolio/static/media/learnhub.3f4958b10d8905c28973.png",
     "static/media/project_2.png": "/Amaranadh_portfolio/static/media/project_2.991b24d4bb67433a9b81.png",
     "static/media/logo.png": "/Amaranadh_portfolio/static/media/logo.dc3bfce0c6135c3c34bb.png",
     "static/media/python.png": "/Amaranadh_portfolio/static/media/python.a6cb5b81f41ab4fe5fed.png",
@@ -17,11 +17,11 @@
     "static/media/figma.png": "/Amaranadh_portfolio/static/media/figma.fd6fa96f8e13344161f8.png",
     "index.html": "/Amaranadh_portfolio/index.html",
     "main.63330a31.css.map": "/Amaranadh_portfolio/static/css/main.63330a31.css.map",
-    "main.ad331db6.js.map": "/Amaranadh_portfolio/static/js/main.ad331db6.js.map",
+    "main.18bab147.js.map": "/Amaranadh_portfolio/static/js/main.18bab147.js.map",
     "787.a41e74c1.chunk.js.map": "/Amaranadh_portfolio/static/js/787.a41e74c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63330a31.css",
-    "static/js/main.ad331db6.js"
+    "static/js/main.18bab147.js"
   ]
 }
