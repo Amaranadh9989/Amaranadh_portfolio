@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.css';
-import easylearn from './images/project_1.png';
+import leranhub from './images/learnhub.png';
 import g4g from './images/project_2.png';
 import movie from './images/Movie_Hub.png';
 const Project = () => {
@@ -15,12 +15,12 @@ const Project = () => {
         <div className='project_container'>
             <div className='project_sub'>
                 <div className='project_card'>
-                <img src={easylearn} alt='image logo' className='easylearn'/>
+                <img src={leranhub} alt='image logo' className='easylearn'/>
                 <div className='project_button'>
                 <a href='https://github.com/Amaranadh9989' target='blank'rel="noopener noreferrer" className='github_link'>
                     Github
                 </a>
-                    <a href="#" target='blank'rel="noopener noreferrer" className='demo_link'>
+                    <a href="https://amaranadhlearnhub.pythonanywhere.com/" target='blank'rel="noopener noreferrer" className='demo_link'>
                         Live Demo
                     </a>
                 </div>
